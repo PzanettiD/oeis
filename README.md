@@ -1,4 +1,4 @@
-# Interesting integer sequences from the "Online Encyclopedia of Integer Sequences" (OEIS)
+# Integer sequences from the "Online Encyclopedia of Integer Sequences" (OEIS)
 
 This repository is where I'll the code that I made to generate some sequences in the OEIS, I'll try to do in multiple programming languages as well.
 
