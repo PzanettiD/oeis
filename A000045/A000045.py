@@ -2,7 +2,7 @@
 #https://oeis.org/A000045
 
 #Algorithm to print the first n Fibonacci numbers, using a bottom_up approach
-def fib(n):
+def fib_b(n):
     print("Bottom up")
     bottom_up = [None] * n
     bottom_up[0] = 0
@@ -15,7 +15,7 @@ def fib(n):
     print()
 
 #Printing the first 30 Fibonacci numbers
-fib(30)
+fib_b(30)
 
 #Algorithm to print the first n Fibonacci numbers using recursion
 def fib_recursive(n):
