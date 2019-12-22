@@ -25,3 +25,6 @@ def phi(n):
         temp_n -= 1
     return count
 
+for i in range(1, 30):
+    print(phi(i), end=" ")
+print()
