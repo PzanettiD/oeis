@@ -4,7 +4,7 @@ This repository is where I'll the code that I made to generate some sequences in
 
 ### Table of Contents
 + **[A000010](https://oeis.org/A000010)** Euler's totient function phi(n): counts numbers <= n and prime to n.
-  - Currently available in Python / C ![demonstration](https://media.giphy.com/media/KGwKmNIDgMXUnP01is/giphy.gif)
+  - Currently available in Python / C 
 
 ---
 
