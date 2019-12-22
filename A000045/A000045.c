@@ -48,7 +48,7 @@ int main(void)
     free(x);
 
     // Using fib_recursive to print the first 30 fibonacci numbers
-    printf("Recursive\n");
+    printf("Recursive\n");  
     for (int j = 0; j < 30; j ++)
     {
         printf("%d ", fib_recursive(j));
