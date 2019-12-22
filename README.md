@@ -13,7 +13,10 @@ This repository is where I'll the code that I made to generate some sequences in
 
 + **[A000040](https://oeis.org/A000040)** The prime numbers.
   - Currently available in Python / C (using [Sieve of Eratosthenes](https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes) algorithm).
-
+  <p align="center">
+    <img src="https://media.giphy.com/media/RgzKjn78GsdWGenYt8/giphy.gif">
+  </p>
+  
 ---
 
 + **[A000045](https://oeis.org/A000045)** Fibonacci numbers: F(n) = F(n-1) + F(n-2) with F(0) = 0 and F(1) = 1.
