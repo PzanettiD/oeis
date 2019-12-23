@@ -6,7 +6,7 @@
 #include <string.h>
 
 // Algorithm that finds and prints prime numbers within a number range of N.
-bool Sieve_of_Eratosthenes(int n)
+void Sieve_of_Eratosthenes(int n)
 {
     bool A[n*n];
     memset(A, true, n*n*sizeof(bool));
@@ -31,8 +31,6 @@ bool Sieve_of_Eratosthenes(int n)
         }
     }
     printf("\n");
-
-    return true; 
 }
 
 int main(void)
