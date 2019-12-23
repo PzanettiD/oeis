@@ -3,19 +3,12 @@
 
 #Algorithm to print the first n Fibonacci numbers, using a bottom_up approach
 def fib_b(n):
-    print("Bottom up")
     bottom_up = [None] * n
     bottom_up[0] = 0
     bottom_up[1] = 1
-    print(bottom_up[0], end=' ')
-    print(bottom_up[1], end=' ')
     for i in range(2, n):
         bottom_up[i] = bottom_up[i - 1] + bottom_up[i - 2]
-        print(bottom_up[i], end=' ')
-    print()
-
-#Printing the first 30 Fibonacci numbers
-fib_b(30)
+    return bottom_up
 
 #Algorithm to print the first n Fibonacci numbers using recursion
 def fib_recursive(n):
@@ -26,7 +19,13 @@ def fib_recursive(n):
     else:
         return fib_recursive(n-1) + fib_recursive(n-2)
 
-#Printing the first 30 Fibonacci numbers
+# Printing function outputs
+fibn = fib_b(30)
+print("Bottom-up")
+for i in range(30):
+    print(fibn[i], end =' ')
+print()
+
 print("Recursion")
 for i in range(0, 30):
     print(fib_recursive(i), end=' ')
