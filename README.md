@@ -28,4 +28,9 @@ This repository is where I'll the code that I made to generate some sequences in
 ---
 
 + **[A000217](https://oeis.org/A000217)** **Triangular numbers**: a(n) = binomial(n+1,2) = n(n+1)/2 = 0 + 1 + 2 + ... + n.
-  - Currently available in **Python** (containing both a arithmetic and a binomial method) / **C** / **C++**.
+  - Currently available in **Python** (containing both a arithmetic and a binomial method) / **C** / **C++**. Demonstration with 0.1 delay:
+  <p align="center">
+    <img src="https://media.giphy.com/media/dVbo5vn5ktHLJig3nu/giphy.gif">
+  </p>
+  
+---
