@@ -20,7 +20,7 @@ This repository is where I'll the code that I made to generate some sequences in
 ---
 
 + **[A000045](https://oeis.org/A000045)** **Fibonacci numbers**: F(n) = F(n-1) + F(n-2) with F(0) = 0 and F(1) = 1.
-  - Currently available in Python / C (containing both a recursive and a bottom-up approach). Demonstration with 0.1 delay:
+  - Currently available in Python / C / C++ (containing both a recursive and a bottom-up approach). Demonstration with 0.1 delay:
   <p align="center">
     <img src="https://media.giphy.com/media/UpDraH9RuxjXyz5qy4/giphy.gif">
   </p>
