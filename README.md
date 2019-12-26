@@ -11,6 +11,11 @@ This repository is where I'll the code that I made to generate some sequences in
 
 ---
 
++ **[A000032](https://oeis.org/A000032)** **Lucas numbers** beginning at 2: L(n) = L(n-1) + L(n-2), L(0) = 2, L(1) = 1.
+   - Currently available in **Python** / **C** (containing both a recursive and bottom-up approach).
+
+---
+
 + **[A000040](https://oeis.org/A000040)** **The prime numbers**.
   - Currently available in **Python** / **C** / **C++** (using [Sieve of Eratosthenes](https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes) algorithm). Demonstration with 0.1 delay:
   <p align="center">
