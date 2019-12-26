@@ -19,6 +19,11 @@ This repository is where I'll the code that I made to generate some sequences in
   
 ---
 
++ **[A000043](https://oeis.org/A000043)** **Mersenne exponents**: primes p such that 2^p - 1 is prime. Then 2^p - 1 is called a Mersenne prime.
+   - Currently available in **Python** (using [Lucas-Lehmer primality test](https://en.wikipedia.org/wiki/Lucas%E2%80%93Lehmer_primality_test)).
+
+---
+
 + **[A000045](https://oeis.org/A000045)** **Fibonacci numbers**: F(n) = F(n-1) + F(n-2) with F(0) = 0 and F(1) = 1.
   - Currently available in **Python** / **C** / **C++** (containing both a recursive and a bottom-up approach). Demonstration with 0.1 delay:
   <p align="center">
@@ -34,3 +39,4 @@ This repository is where I'll the code that I made to generate some sequences in
   </p>
   
 ---
+
