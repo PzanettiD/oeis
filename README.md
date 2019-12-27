@@ -12,7 +12,7 @@ This repository is where I'll share the code that I made to generate some of the
 ---
 
 + **[A000032](https://oeis.org/A000032)** **Lucas numbers** beginning at 2: L(n) = L(n-1) + L(n-2), L(0) = 2, L(1) = 1.
-   - Currently available in **Python** / **C** (containing both a recursive and bottom-up approach).
+   - Currently available in **Python** / **C** / **C++** (containing both a recursive and bottom-up approach).
 
 ---
 
