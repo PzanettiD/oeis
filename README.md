@@ -46,7 +46,7 @@ This repository is where I'll share the code that I made to generate some of the
 ---
 
 + **[A005132](https://oeis.org/A005132)** **Recamán's sequence**: a(0) = 0; for n > 0, a(n) = a(n-1) - n if positive and not already in the sequence, otherwise a(n) = a(n-1) + n.
-   - Currently available in **Python**/ **C**.
+   - Currently available in **Python**/ **C** / **C++**.
   
 ---
 
