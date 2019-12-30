@@ -46,6 +46,6 @@ This repository is where I'll share the code that I made to generate some of the
 ---
 
 + **[A007318](https://oeis.org/A007318)** **Pascal's triangle** read by rows: C(n,k) = binomial(n,k) = n!/(k!*(n-k)!), 0 <= k <= n.
-  - Currently available in **Python** / **C** (with some memory leakage to be fixed).
+  - Currently available in **Python** / **C** (with some memory leakage to be fixed) / **C++**.
 
 ---
