@@ -19,7 +19,7 @@ bool inArray(int x, int *arr, int size)
    return false;
 }
 
-// Function that returns the firs (n) numbers in Recaman's sequence,
+// Function that returns the first (n) numbers in Recaman's sequence,
 // as an array (sequence).
 int *rec(int n)
 {
