@@ -1,2 +1,3 @@
 # ignore output files from compilers
 *.out
+**/__pycache__/
