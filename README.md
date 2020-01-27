@@ -62,6 +62,6 @@ This repository is where I'll share the code that I made to generate some of the
 ---
 
 + **[A035513](https://oeis.org/A035513)** **Wythoff array** read by antidiagonals.
-   - Currently available in **Python** (using Construction(1), from [this](https://oeis.org/classic.html))
+   - Currently available in **Python** / **C++** (using Construction(1), from [this](https://oeis.org/classic.html))
 
 ---
