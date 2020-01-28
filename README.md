@@ -1,5 +1,4 @@
 # Integer sequences from the "Online Encyclopedia of Integer Sequences" ([OEIS](https://oeis.org/))
-[![CodeFactor](https://www.codefactor.io/repository/github/pzanettid/oeis-integer-sequences/badge)](https://www.codefactor.io/repository/github/pzanettid/oeis-integer-sequences)
 
 This repository is where I'll share the code that I made to generate some of the sequences in the OEIS.
 
