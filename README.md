@@ -35,10 +35,14 @@ This repository is where I'll share the code that I made to generate some of the
    <p align="center">
       <img src="https://media.giphy.com/media/UpDraH9RuxjXyz5qy4/giphy.gif">
    </p>
+---
+
++ **[A000108](https://oeis.org/A000108)** **Catalan numbers**: C(n) = binomial(2n,n)/(n+1) = (2n)!/(n!(n+1)!). Also called Segner numbers.
+   - Currently available in **Python** / **C** / **C++** (containing both a recursive and a bottom-up approach).
 
 ---
 
-+ **[A000201](https://oeis.org/A000201)** **Lower Wythoff sequence**: a(n) = floor(n*phi), where phi = (1+sqrt(5))/2.
++ **[A000201](https://oeis.org/A000201)** **Lower Wythoff sequence**: a(n) = floor(n x phi), where phi = (1+sqrt(5))/2.
 	- Currently available in **Python** / **C** / **C++**.
 
 ---
@@ -56,7 +60,7 @@ This repository is where I'll share the code that I made to generate some of the
 
 ---
 
-+ **[A007318](https://oeis.org/A007318)** **Pascal's triangle** read by rows: C(n,k) = binomial(n,k) = n!/(k!*(n-k)!), 0 <= k <= n.
++ **[A007318](https://oeis.org/A007318)** **Pascal's triangle** read by rows: C(n,k) = binomial(n,k) = n!/(k!(n-k)!), 0 <= k <= n.
    - Currently available in **Python** / **C** (with some memory leakage to be fixed) / **C++**.
 
 ---
