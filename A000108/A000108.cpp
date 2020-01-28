@@ -1,7 +1,11 @@
+// Catalan numbers: C(n) = binomial(2n,n)/(n+1) = (2n)!/(n!(n+1)!). Also called Segner numbers.
+// https://oeis.org/A000108
+
 # include <iostream>
 # include <vector>
 using namespace std;
 
+// Recursive implementation for generating catalan numbers.
 int catalan_recursive(int n)
 {
    if (n <= 1)
@@ -19,6 +23,7 @@ int catalan_recursive(int n)
    }
 }
 
+// Bottom-up implementation for generating catalan numbers.
 vector<int> catalan_bottom_up(int n)
 {
    vector<int> b_up;
@@ -37,11 +42,10 @@ vector<int> catalan_bottom_up(int n)
 }
 
 
-
 int main()
 {
    int N = 15;
-   
+   // Printing N catalan numbers using both approaches.
    for (int i = 0; i < N; i++)
    {
       cout << catalan_recursive(i) << " ";
