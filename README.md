@@ -59,6 +59,11 @@ This repository is where I'll share the code that I made to generate some of the
 
 ---
 
++ **[A005185](https://oeis.org/A005185)** **Hofstadter Q-sequence**: a(1) = a(2) = 1; a(n) = a(n-a(n-1)) + a(n-a(n-2)) for n > 2.
+   - Currently available in **Python** / **C++** (containing both a recursive and bottom-up implementation).
+
+---
+
 + **[A007318](https://oeis.org/A007318)** **Pascal's triangle** read by rows: C(n,k) = binomial(n,k) = n!/(k!(n-k)!), 0 <= k <= n.
    - Currently available in **Python** / **C** (with some memory leakage to be fixed) / **C++**.
 
