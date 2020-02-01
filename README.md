@@ -60,7 +60,7 @@ This repository is where I'll share the code that I made to generate some of the
 ---
 
 + **[A005185](https://oeis.org/A005185)** **Hofstadter Q-sequence**: a(1) = a(2) = 1; a(n) = a(n-a(n-1)) + a(n-a(n-2)) for n > 2.
-   - Currently available in **Python** / **C++** (containing both a recursive and bottom-up implementation).
+   - Currently available in **Python** / **C** / **C++** (containing both a recursive and bottom-up implementation).
 
 ---
 
